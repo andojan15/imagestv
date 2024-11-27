@@ -1,10 +1,10 @@
 'use client'
 
-
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Loader2, Download, Image as ImageIcon } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 import MondrianBackground from '@/components/MondrianBackground'
 
 export default function Home() {
@@ -57,9 +57,15 @@ export default function Home() {
       <div className="max-w-3xl mx-auto">
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
           <div className="px-4 py-5 sm:p-6">
-            <h1 className="text-3xl font-extrabold text-gray-900 text-center mb-8">
+            <h1 className="text-3xl font-extrabold text-gray-900 text-center mb-2">
               AI 图片生成器
             </h1>
+            <p className="text-center text-sm text-gray-500 mb-8">
+              Code & Crafted with💛by{' '}
+              <Link href="https://github.com/ChanMeng666/image-generator" className="text-indigo-600 hover:text-indigo-500">
+                Chan Meng
+              </Link>
+            </p>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
