@@ -28,13 +28,13 @@ export default function Home() {
       })
 
       if (!response.ok) {
-        throw new Error('图片生成失败')
+        throw new Error('Image generation failed')
       }
 
       const imageData = await response.json()
       setImage(`data:image/png;base64,${imageData}`)
     } catch (err) {
-      setError(err instanceof Error ? err.message : '发生未知错误')
+      setError(err instanceof Error ? err.message : 'An unknown error occurred')
     } finally {
       setLoading(false)
     }
@@ -58,7 +58,7 @@ export default function Home() {
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
           <div className="px-4 py-5 sm:p-6">
             <h1 className="text-3xl font-extrabold text-gray-900 text-center mb-2">
-              AI 图片生成器
+              AI Image Generator
             </h1>
             <p className="text-center text-sm text-gray-500 mb-8">
               Code & Crafted with💛by{' '}
@@ -70,7 +70,7 @@ export default function Home() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="prompt" className="block text-sm font-medium text-gray-700">
-                  图片描述
+                  Image Description
                 </label>
                 <div className="mt-1">
                   <textarea
@@ -80,7 +80,7 @@ export default function Home() {
                     className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
                     value={prompt}
                     onChange={(e) => setPrompt(e.target.value)}
-                    placeholder="输入您想要生成的图片描述..."
+                    placeholder="Enter your image description here..."
                   />
                 </div>
               </div>
@@ -94,12 +94,12 @@ export default function Home() {
                   {loading ? (
                     <>
                       <Loader2 className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" />
-                      生成中...
+                      Generating...
                     </>
                   ) : (
                     <>
                       <ImageIcon className="-ml-1 mr-3 h-5 w-5" />
-                      生成图片
+                      Generate Image
                     </>
                   )}
                 </Button>
@@ -116,7 +116,7 @@ export default function Home() {
                   </div>
                   <div className="ml-3">
                     <h3 className="text-sm font-medium text-red-800">
-                      生成失败
+                      Generation Failed
                     </h3>
                     <div className="mt-2 text-sm text-red-700">
                       <p>{error}</p>
@@ -142,7 +142,7 @@ export default function Home() {
                   className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   <Download className="-ml-1 mr-3 h-5 w-5" />
-                  下载图片
+                  Download Image
                 </Button>
               </div>
             )}

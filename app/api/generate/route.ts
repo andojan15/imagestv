@@ -11,7 +11,7 @@ export async function POST(req: Request) {
 
     if (!prompt) {
       return NextResponse.json(
-        { error: "请输入提示词" },
+        { error: "Please enter a prompt" },
         { status: 400 }
       );
     }
@@ -30,7 +30,7 @@ export async function POST(req: Request) {
   } catch (error) {
     console.error(error);
     return NextResponse.json(
-      { error: "生成图片时出错" },
+      { error: "Error generating image" },
       { status: 500 }
     );
   }
