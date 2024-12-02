@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'AI Image Generator',
   description: 'Generate images using Together AI',
+  icons: {
+    icon: '/favicon.svg',
+  }
 }
 
 export default function RootLayout({

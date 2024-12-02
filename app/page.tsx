@@ -57,9 +57,18 @@ export default function Home() {
       <div className="max-w-3xl mx-auto">
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
           <div className="px-4 py-5 sm:p-6">
-            <h1 className="text-3xl font-extrabold text-gray-900 text-center mb-2">
-              AI Image Generator
-            </h1>
+          <div className="flex items-center justify-center gap-3 mb-2">
+              <Image 
+                src="/logo.svg"
+                alt="AI Image Generator Logo"
+                width={200}
+                height={200}
+                className="h-10 w-10"
+              />
+              <h1 className="text-3xl font-extrabold text-gray-900 text-center mb-2">
+                AI Image Generator
+              </h1>
+            </div>
             <p className="text-center text-sm text-gray-500 mb-8">
               Code & Crafted with💛by{' '}
               <Link href="https://github.com/ChanMeng666/image-generator" className="text-indigo-600 hover:text-indigo-500">
