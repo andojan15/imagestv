@@ -10,6 +10,9 @@
  <img src="https://img.shields.io/github/package-json/v/ChanMeng666/image-generator?style=flat"/>
 </div>
 
+![screencapture-image-generator-sable-tau-vercel-app-2024-12-06-12_11_25](https://github.com/user-attachments/assets/d9abd50c-8b07-45ce-b360-367a89ae9e3b)
+
+![screencapture-image-generator-sable-tau-vercel-app-2024-12-06-12_11_51](https://github.com/user-attachments/assets/d5c54d22-122e-4775-9767-a3ca1045b0ef)
 
 # Features
 
