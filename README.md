@@ -10,6 +10,11 @@
  <img src="https://img.shields.io/github/package-json/v/ChanMeng666/image-generator?style=flat"/>
 </div>
 
+<br/>
+
+[![Explore GitHub Profile README Generator](https://gradient-svg-generator.vercel.app/?text=👉+Try+It+Now!+👈&height=40&template=pride-rainbow)]([https://chanmeng666.github.io/html-brick-game/](https://image-generator-sable-tau.vercel.app/))
+
+<br/>
 
 https://github.com/user-attachments/assets/6ae7ccc7-2fba-4e1b-a2c1-e9a9b2b0b041
 
