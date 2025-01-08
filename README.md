@@ -12,7 +12,7 @@
 
 <br/>
 
-[![Explore GitHub Profile README Generator](https://gradient-svg-generator.vercel.app/?text=👉+Try+It+Now!+👈&height=40&template=pride-rainbow)]([https://chanmeng666.github.io/html-brick-game/](https://image-generator-sable-tau.vercel.app/))
+[![Explore GitHub Profile README Generator](https://gradient-svg-generator.vercel.app/?text=👉+Try+It+Now!+👈&height=40&template=pride-rainbow)](https://image-generator-sable-tau.vercel.app/)
 
 <br/>
 
