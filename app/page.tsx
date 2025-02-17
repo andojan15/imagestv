@@ -1,3 +1,4 @@
+@@ -1,163 +1,163 @@
 'use client'
 
 import { useState } from 'react'
@@ -17,7 +18,7 @@ export default function Home() {
     e.preventDefault()
     setLoading(true)
     setError(null)
-    
+
     try {
       const response = await fetch('/api/generate', {
         method: 'POST',
@@ -71,11 +72,11 @@ export default function Home() {
             </div>
             <p className="text-center text-sm text-gray-500 mb-8">
               Code & Crafted with💛by{' '}
-              <Link href="https://www.facebook.com/profile.php?id=61564875214944" className="text-indigo-600 hover:text-indigo-500">
-                Andmedia
+              <Link href="https://github.com/ChanMeng666/image-generator" className="text-indigo-600 hover:text-indigo-500">
+                Chan Meng
               </Link>
             </p>
-            
+
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="prompt" className="block text-sm font-medium text-gray-700">
@@ -93,7 +94,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              
+
               <div>
                 <Button 
                   className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -145,7 +146,7 @@ export default function Home() {
                     objectFit="cover"
                   />
                 </div>
-                
+
                 <Button
                   onClick={handleDownload}
                   className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
