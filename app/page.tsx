@@ -71,8 +71,8 @@ export default function Home() {
             </div>
             <p className="text-center text-sm text-gray-500 mb-8">
               Code & Crafted with💛by{' '}
-              <Link href="https://github.com/ChanMeng666/image-generator" className="text-indigo-600 hover:text-indigo-500">
-                Chan Meng
+              <Link href="https://www.facebook.com/profile.php?id=61564875214944" className="text-indigo-600 hover:text-indigo-500">
+                Andmedia
               </Link>
             </p>
             
